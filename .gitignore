@@ -1,0 +1,23 @@
+# Python and Jupyter caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+
+# ESP-IDF generated files
+**/build/
+**/sdkconfig.old
+
+# Local runtime data
+new-train/deployment/water_quality.db
+new-train/deployment/water_quality.db-*
+new-train/deployment/data.csv
+new-train/deployment/mock_data.csv
+new-train/deployment/data/
+new-train/deployment/history-data/
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db

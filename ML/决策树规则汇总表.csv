@@ -1,0 +1,11 @@
+﻿叶节点,规则条件,预测等级,样本数
+8,Temperature > 9.957 且 Temperature > 17.979 且 Temperature <= 23.992 且 Salinity <= 34.997,3,498
+2,Temperature <= 9.957 且 Oxygen > 93.800 且 pH <= 7.740 且 DO_mgL <= 5.019,1,285
+7,Temperature > 9.957 且 Temperature <= 17.979,2,265
+1,Temperature <= 9.957 且 Oxygen <= 93.800,0,234
+10,Temperature > 9.957 且 Temperature > 17.979 且 Temperature > 23.992,2,208
+6,Temperature <= 9.957 且 Oxygen > 93.800 且 pH > 7.740 且 DO_mgL > 3.768,2,7
+9,Temperature > 9.957 且 Temperature > 17.979 且 Temperature <= 23.992 且 Salinity > 34.997,2,7
+3,Temperature <= 9.957 且 Oxygen > 93.800 且 pH <= 7.740 且 DO_mgL > 5.019 且 pH <= 7.624,1,4
+5,Temperature <= 9.957 且 Oxygen > 93.800 且 pH > 7.740 且 DO_mgL <= 3.768,1,1
+4,Temperature <= 9.957 且 Oxygen > 93.800 且 pH <= 7.740 且 DO_mgL > 5.019 且 pH > 7.624,2,1
